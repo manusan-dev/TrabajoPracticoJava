@@ -17,8 +17,8 @@ package trabajopráctico;
 		        
 
 		        // Obtener las rutas de los archivos de partidos y resultados
-		        String archivoPronostico = "C:\\Users\\Manuel\\Documents\\NetBeansProjects\\TrabajoPráctico\\src\\trabajopráctico\\pronostico.csv";
-		        String archivoResultados = "C:\\Users\\Manuel\\Documents\\NetBeansProjects\\TrabajoPráctico\\src\\trabajopráctico\\resultados.csv";
+		        String archivoPronostico = "src\\trabajopráctico\\pronostico.csv";
+		        String archivoResultados = "src\\trabajopráctico\\resultados.csv";
 
 		       
             try (BufferedReader lector = new BufferedReader(new FileReader(archivoResultados))) {
